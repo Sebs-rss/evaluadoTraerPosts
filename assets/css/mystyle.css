@@ -1,0 +1,109 @@
+html {
+    background-color: #7EACB5;
+}
+
+body {
+    font-family: lato, sans-serif;
+}
+
+h1 {
+    color:  #FFF4EA;;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+main {
+    background-color: #FFF4EA;
+    color: #C96868;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: start;
+    border: 2px solid black;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.mybutton {    
+    
+    background-color: #C96868;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    color: #FFFFFF;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0px 1718px 481px 0px rgba(0, 0, 0, 0.00), 0px 1099px 440px 0px rgba(0, 0, 0, 0.01), 0px 618px 371px 0px rgba(0, 0, 0, 0.05), 0px 275px 275px 0px rgba(0, 0, 0, 0.09), 0px 69px 151px 0px rgba(0, 0, 0, 0.10);
+
+    &:hover {
+        background-color: #FFFFFF;
+        color: #C96868;
+        border: 3px solid #C96868;
+        box-shadow: 2px 1481px 415px 0px rgba(0, 0, 0, 0.00), 1px 948px 379px 0px rgba(0, 0, 0, 0.01), 1px 533px 320px 0px rgba(0, 0, 0, 0.05), 0px 237px 237px 0px rgba(0, 0, 0, 0.09), 0px 59px 130px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    &:active {
+        background-color: #FFFFFF;
+        color: #C96868;
+        border: 3px solid black;
+
+    }
+}
+
+.mybutton--secondary {
+        background-color: #FFFFFF;
+        color: #C96868;
+        border: 3px solid #C96868; 
+        padding: 1rem;
+        padding-bottom: 1rem;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 10rem;
+        font-size: 1rem;
+        font-weight: 700;
+        font-weight: bold;
+        border-radius: 4px;
+
+        &:hover {
+            background-color: #C96868;
+            color: #FFF4EA;
+            transition: all 0.3s ease;
+        }
+}
+
+.contendedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFF4EA;
+    color: black;
+}
+
+.sub-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+li {
+    color: black;
+    border-color: black;
+}
+
+ul {
+    border-color: solid 2px black;
+}

@@ -5,11 +5,20 @@ By Sebastián Sánchez -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/mystyle.css">
+  <title>Traer post</title>
 </head>
 <body>
-  <button onclick="getPosts()">Traer Posts </button>
-  <div id="post-data"></div>
+  <h1>👇🏻 Este botón trae posts desde una API</h1>
+  <main class="contenedor">
+    <div class="sub-contenedor">
+      <button onclick="getPosts()" class="mybutton">Traer posts </button>
+      <div id="post-data"></div>
+    </div>
+    <div class="sub-contenedor">
+      <button onclick="location.reload()" class="mybutton--secondary">Refresh </button>
+    </div>  
+  </main>
 </body>
 <script src="./assets/js/myscript.js"></script>
 </html>
